@@ -6,7 +6,7 @@
 /*   By: muhakhan <muhakhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 17:28:05 by muhakhan          #+#    #+#             */
-/*   Updated: 2026/02/02 17:54:45 by muhakhan         ###   ########.fr       */
+/*   Updated: 2026/02/03 17:22:07 by muhakhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int main()
 		if (command == "ADD")
 			phoneBook.addContact();
 		else if (command == "SEARCH")
-			phoneBook.searchContacts();
+			phoneBook.searchContact();
 		else if (command == "EXIT")
 		{
 			std::cout << "Goodbye! All contacts will be lost." << std::endl;

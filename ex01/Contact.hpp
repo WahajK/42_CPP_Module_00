@@ -6,7 +6,7 @@
 /*   By: muhakhan <muhakhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/02 17:28:02 by muhakhan          #+#    #+#             */
-/*   Updated: 2026/02/02 18:33:18 by muhakhan         ###   ########.fr       */
+/*   Updated: 2026/02/03 16:48:52 by muhakhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,11 @@ class Contact
 		std::string	getNickname();
 		std::string	getNumber();
 		std::string	getDarkestSecret();
+		void	setFirstName(std::string first_name);
+		void	setLastName(std::string last_name);
+		void	setNickname(std::string nickname);
+		void	setNumber(std::string number);
+		void	setDarkestSecret(std::string darkest_secret);
 };
 
 #endif
